@@ -103,7 +103,7 @@
     "components/theme-provider.jsx",
     "components/security.jsx",
     "components/how-it-works.jsx",
-    "components/hero.jsx",
+    "components/hero.tsx",
     "components/header.jsx",
     "components/footer.jsx",
     "components/admin-login-form.jsx",
