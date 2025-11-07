@@ -113,7 +113,8 @@ export default function Security() {
 // Internal CSS styles
 const sectionStyle = {
   padding: '5rem 1rem',
-  background: 'linear-gradient(to bottom, var(--muted)/0.3 0%, var(--background) 100%)'
+  // background: 'linear-gradient(to bottom, var(--muted)/0.3 0%, var(--background) 100%)'
+  background: '#1f1f52'
 }
 
 const containerStyle = {

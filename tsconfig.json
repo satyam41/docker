@@ -104,7 +104,7 @@
     "components/security.jsx",
     "components/how-it-works.jsx",
     "components/hero.tsx",
-    "components/header.jsx",
+    "components/header.tsx",
     "components/footer.jsx",
     "components/admin-login-form.jsx",
     "components/features.jsx",

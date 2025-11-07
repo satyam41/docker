@@ -144,7 +144,7 @@ const headerStyle = {
 const subtitleStyle = {
   fontSize: '0.875rem',
   fontWeight: '600',
-  color: 'var(--secondary)',
+  color: '#fff',
   textTransform: 'uppercase',
   letterSpacing: '0.05em',
   marginBottom: '0.5rem'
@@ -176,7 +176,7 @@ const iconStyle = {
 const featureTitleStyle = {
   fontSize: '1.125rem',
   fontWeight: '600',
-  color: 'var(--foreground)',
+  color: '#000',
   marginBottom: '0.75rem'
 }
 

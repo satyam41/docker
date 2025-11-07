@@ -100,7 +100,7 @@ export default function AdminLoginForm() {
       <div style={optionsContainerStyle}>
         <label style={checkboxLabelStyle}>
           <input type="checkbox" style={checkboxStyle} disabled={isLoading} />
-          <span>Remember me</span>
+          <span style={remembermeText}>Remember me</span>
         </label>
         <button
           type="button"
@@ -154,7 +154,7 @@ const labelStyle = {
   display: 'block',
   fontSize: '0.875rem',
   fontWeight: '500',
-  color: 'var(--foreground)'
+  color: '#000'
 }
 
 const inputContainerStyle = {
@@ -175,14 +175,16 @@ const iconStyle = {
 const inputStyle = {
   paddingLeft: '2.5rem',
   height: '2.5rem',
-  borderColor: 'var(--input)'
+  borderColor: 'var(--input)',
+  color: '#141212'
 }
 
 const passwordInputStyle = {
   paddingLeft: '2.5rem',
   paddingRight: '2.5rem',
   height: '2.5rem',
-  borderColor: 'var(--input)'
+  borderColor: 'var(--input)',
+  color: '#141212'
 }
 
 const passwordToggleStyle = {
@@ -217,6 +219,10 @@ const optionsContainerStyle = {
   fontSize: '0.875rem'
 }
 
+const remembermeText = {
+  color: '#000'
+} 
+
 const checkboxLabelStyle = {
   display: 'flex',
   alignItems: 'center',
@@ -244,8 +250,9 @@ const forgotPasswordStyle = {
 const submitButtonStyle = {
   width: '100%',
   height: '2.5rem',
-  background: 'linear-gradient(to right, var(--primary), var(--primary)/0.9)',
-  fontWeight: '500'
+  background: 'linear-gradient(to right, #000, var(--primary))',
+  fontWeight: '500',
+  cursor: 'pointer'
 }
 
 const loadingStyle = {
@@ -257,7 +264,7 @@ const loadingStyle = {
 const spinnerStyle = {
   width: '1rem',
   height: '1rem',
-  border: '2px solid var(--primary-foreground)',
+  border: '2px solid #000',
   borderTop: '2px solid transparent',
   borderRadius: '50%',
   animation: 'spin 1s linear infinite'

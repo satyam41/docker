@@ -101,7 +101,7 @@ export default function HowItWorks() {
       <div style={containerStyle}>
         <div style={headerStyle}>
           <h3 style={subtitleStyle}>Process</h3>
-          <h2 style={titleStyle}>
+          <h2 style={titleStyle1}>
             Simple Steps to Secure Your Documents
           </h2>
           <p style={headerDescriptionStyle}>
@@ -144,7 +144,7 @@ const headerStyle = {
 const subtitleStyle = {
   fontSize: '0.875rem',
   fontWeight: '600',
-  color: 'var(--secondary)',
+  color: '#fff',
   textTransform: 'uppercase',
   letterSpacing: '0.05em',
   marginBottom: '0.5rem'
@@ -153,7 +153,15 @@ const subtitleStyle = {
 const titleStyle = {
   fontSize: '2.25rem',
   fontWeight: 'bold',
-  color: 'var(--foreground)',
+  color: '#141212',
+  marginBottom: '1rem',
+  textWrap: 'balance'
+}
+
+const titleStyle1 = {
+  fontSize: '2.25rem',
+  fontWeight: 'bold',
+  color: '#fff',
   marginBottom: '1rem',
   textWrap: 'balance'
 }
@@ -178,7 +186,7 @@ const numberCircleStyle = {
   margin: '0 auto 1rem auto',
   fontSize: '1.5rem',
   fontWeight: 'bold',
-  color: 'var(--foreground)'
+  color: '#000'
 }
 
 const iconStyle = {
