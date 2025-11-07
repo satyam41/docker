@@ -1,0 +1,95 @@
+.admin-page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--background) 0%, var(--background) 50%, var(--secondary)/0.1 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-header {
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-content {
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted-foreground);
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--foreground);
+}
+
+.back-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.branding-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary)/0.7 100%);
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--foreground);
+}
+
+.brand-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+}
+
+.brand-subtitle {
+  color: var(--muted-foreground);
+}
+
+.login-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-top: 1.5rem;
+}
