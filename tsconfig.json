@@ -38,7 +38,7 @@
     "app/page.jsx",
     "lib/utils.js",
     "lib/utils.js",
-    "hooks/use-toast.js",
+    "hooks/use-toast.ts",
     "hooks/use-mobile.js",
     "components/ui/use-toast.js",
     "components/ui/use-mobile.jsx",
