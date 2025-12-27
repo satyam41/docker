@@ -1,7 +1,0 @@
-name = "docker"
-compatibility_date = "2025-12-27"
-main = "workers-site/index.js"
-
-# THIS BLOCK IS REQUIRED
-[assets]
-  directory = ".cloudflare"
