@@ -1,5 +1,0 @@
-name = "my-v0-project"
-compatibility_date = "2025-12-27"
-
-[pages]
-build_output_dir = ".cloudflare"
