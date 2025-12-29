@@ -1,0 +1,187 @@
+/* [project]/components/header.css [app-client] (css) */
+.header {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border);
+  z-index: 50;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.logo-container {
+  align-items: center;
+  gap: .75rem;
+  display: flex;
+}
+
+.logo-icon {
+  background: linear-gradient(to bottom right, var(--secondary), var(--secondary) / .7);
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+}
+
+.logo-svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--foreground);
+}
+
+.logo-title {
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.logo-subtitle {
+  color: var(--muted-foreground);
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+.desktop-nav {
+  align-items: center;
+  gap: 2rem;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: flex;
+  }
+}
+
+.nav-link {
+  color: var(--foreground);
+  transition: color .2s;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.admin-button {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  font-weight: 500;
+  transition: background-color .2s;
+}
+
+.admin-button:hover {
+  background-color: var(--primary) / .9;
+}
+
+.mobile-menu-button {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+.menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mobile-nav {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.mobile-nav-content {
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.mobile-nav-link {
+  color: var(--foreground);
+  transition: color .2s;
+  display: block;
+}
+
+.mobile-nav-link:hover {
+  color: var(--primary);
+}
+
+.mobile-admin-button {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  text-align: center;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  font-weight: 500;
+  transition: background-color .2s;
+  display: block;
+}
+
+.mobile-admin-button:hover {
+  background-color: var(--primary) / .9;
+}
+
+:root {
+  --background: #fff;
+  --border: #e5e7eb;
+  --foreground: #374151;
+  --primary: #2563eb;
+  --primary-foreground: #fff;
+  --secondary: #f3f4f6;
+  --muted-foreground: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111827;
+    --border: #374151;
+    --foreground: #f9fafb;
+    --primary: #3b82f6;
+    --primary-foreground: #fff;
+    --secondary: #1f2937;
+    --muted-foreground: #9ca3af;
+  }
+}
+
+/*# sourceMappingURL=components_header_css_bad6b30c._.single.css.map*/
