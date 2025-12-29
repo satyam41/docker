@@ -1351,6 +1351,10 @@
     user-select: none;
   }
 
+  .\[key\:V\f \14 \] {
+    key: V  ;
+  }
+
   .\[key\:̃\14 \] {
     key: ̃ ;
   }
@@ -1365,10 +1369,6 @@
 
   .\[name\:V\6 �\] {
     name: V �;
-  }
-
-  .\[name\:�\19 �ng\] {
-    name: � �ng;
   }
 
   :where(.divide-x-reverse > :not(:last-child)) {
